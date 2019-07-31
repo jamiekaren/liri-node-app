@@ -1,8 +1,17 @@
-var axios = require("axios");
+require("dotenv").config();
+let keys = require("./keys.js");
 
-function getBands(band) {
+let spotify = new Spotify(keys.spotify);
+
+let axios = require("axios");
+
+// let spotifySong = "spotify this song" + process.argv(2);
+
+
+
+function getSong(band) {
     axios
-        .get("")
+        .get("https://api.spotify.com/v1/search" + band)
         .then(function (response) {
 
 
@@ -25,4 +34,5 @@ function getBands(band) {
         });
 };
 
-getBands();
+getSong();
+
