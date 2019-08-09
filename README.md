@@ -21,7 +21,7 @@ It also uses to the Axios npm package to grab data from some of these APIs, as w
 My name is Jamie Karen Ferrugiaro, and I'm currently a student in Rutger's web development bootcamp. I'm halfway through my program and most of the projects on this GitHub are still currently a part of that learning process.
 
 ### This App Development
-For this app I was able to include my new knowledge of Node.js into my JavaScript skillset. I was able to use these new backend JS skills to make API calls and create an app that enabled users to search for various forms of entertainment.
+For this app I was able to include my new knowledge of Node.js into my JavaScript skillset. I was able to use these new backend JS skills to make API calls and create an app that enabled users to search for various forms of entertainment. So when you're not googling cat pictures, you can come here.
 
 ### If you'd like find out more about me:
 
