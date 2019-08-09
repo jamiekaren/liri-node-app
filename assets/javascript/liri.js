@@ -18,13 +18,27 @@ function getSong(song) {
             // console.log(data_array);
 
             data_array.forEach(element => {
+                let artistName = "";
+
+                let currentArtist = element.album.artists;
+                currentArtist.forEach(element => {
+                    // console.log(element.name);
+                    artistName = element.name;
+                });
+
                 let songName = element.name;
                 let albumName = element.album.name;
                 let previewURL = element.preview_url;
 
-                console.log("Song Title:  "  + songName + "\n"
+
+                console.log("----------------"
+                    + "\n"
+                    + "Song Title:  " + songName + "\n"
                     + "Album: " + albumName + "\n"
-                    + "Preview Album: " + previewURL);
+                    + "Artist: " + artistName + "\n"
+                    + "Preview Album: " + "\n" + previewURL
+                    + "\n"
+                    + "----------------");
             });
 
 
