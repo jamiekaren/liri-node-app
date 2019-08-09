@@ -1,17 +1,24 @@
 require("dotenv").config();
 
-let keys = require("./keys.js"); 
+let keys = require("./keys.js");
 
 let Spotify = require('node-spotify-api');
- 
+
+let spotify = new Spotify(keys.spotify);
 
 
 function getSong(song) {
-    let spotify = new Spotify(keys.spotify);
+
     spotify
         .search({ type: 'track', query: song })
         .then(function (response) {
-            console.log(response);
+            // console.log(response.tracks);
+            let data_array = response.tracks;
+            let data_album = response.tracks.album;
+
+            console.log(data_array + "---------------");
+            console.log(data_album + "----------------");
+
         })
         .catch(function (err) {
             console.log(err);
@@ -19,3 +26,17 @@ function getSong(song) {
 };
 
 getSong("Stupid Mouth");
+
+
+// "artists":{"href":"https://api.spotify.com/v1/search?query=tania+bowra\u0026offset=0\u0026limit=20\u0026type=artist",
+// "items":[{"external_urls":{"spotify":"https://open.spotify.com/artist/08td7MxkoHQkXnWAYD8d6Q"},"genres":[],
+// "href":"https://api.spotify.com/v1/artists/08td7MxkoHQkXnWAYD8d6Q","id":"08td7MxkoHQkXnWAYD8d6Q","images":[{"height":640,"url":"https://i.scdn.co/image/f2798ddab0c7b76dc2d270b65c4f67ddef7f6718","width":640},{"height":300,"url":"https://i.scdn.co/image/b414091165ea0f4172089c2fc67bb35aa37cfc55","width":300},{"height":64,"url":"https://i.scdn.co/image/8522fc78be4bf4e83fea8e67bb742e7d3dfe21b4","width":64}],
+// "name":"Tania Bowra",
+// "popularity":0,
+// "type":"artist",
+// "uri":"spotify:artist:08td7MxkoHQkXnWAYD8d6Q"}],
+// "limit":20,
+// "next":null,
+// "offset":0,
+// "previous":null,
+// "total":1}}
