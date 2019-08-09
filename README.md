@@ -26,6 +26,8 @@ For this app I was able to include my new knowledge of Node.js into my JavaScrip
 ### If you'd like find out more about me:
 
 [LinkedIn](https://www.linked.in/in/jamiekaren)
+
 [Dev.to Blog](https://dev.to/jamiekaren)
+
 [Twitter](https://www.twitter.com/missjamiekaren)
 
