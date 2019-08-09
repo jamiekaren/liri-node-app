@@ -20,9 +20,11 @@ function getSong(song) {
             data_array.forEach(element => {
                 let songName = element.name;
                 let albumName = element.album.name;
+                let previewURL = element.preview_url;
 
                 console.log("Song Title:  "  + songName + "\n"
-                    + "Album: " + albumName);
+                    + "Album: " + albumName + "\n"
+                    + "Preview Album: " + previewURL);
             });
 
 
