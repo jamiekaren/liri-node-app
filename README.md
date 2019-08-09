@@ -16,7 +16,7 @@ It also uses to the Axios npm package to grab data from some of these APIs, as w
 
 <hr>
 
-## Developer Details
+## Developer Details | Jamie K. Ferrugiaro
 
 My name is Jamie Karen Ferrugiaro, and I'm currently a student in Rutger's web development bootcamp. I'm halfway through my program and most of the projects on this GitHub are still currently a part of that learning process.
 
@@ -25,7 +25,7 @@ For this app I was able to include my new knowledge of Node.js into my JavaScrip
 
 ### If you'd like find out more about me:
 
-[LinkedIn]("https://www.linked.in/in/jamiekaren")
-[Dev.to Blog]("https://dev.to/jamiekaren")
-[Twitter]("https://www.twitter.com/missjamiekaren")
+[LinkedIn](https://www.linked.in/in/jamiekaren)
+[Dev.to Blog](https://dev.to/jamiekaren)
+[Twitter](https://www.twitter.com/missjamiekaren)
 
