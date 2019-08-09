@@ -13,11 +13,13 @@ function getSong(song) {
         .search({ type: 'track', query: song })
         .then(function (response) {
             // console.log(response.tracks);
-            let data_array = response.tracks;
-            let data_album = response.tracks.album;
+            let data_array = response.tracks.items;
+    
+    
 
-            console.log(data_array + "---------------");
-            console.log(data_album + "----------------");
+            console.log(data_array );
+            console.log("---------------------------------");
+            // console.log(data_album );
 
         })
         .catch(function (err) {
