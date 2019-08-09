@@ -1,38 +1,21 @@
 require("dotenv").config();
-let keys = require("./keys.js");
 
-let spotify = new Spotify(keys.spotify);
+let keys = require("./keys.js"); 
 
-let axios = require("axios");
-
-// let spotifySong = "spotify this song" + process.argv(2);
+let Spotify = require('node-spotify-api');
+ 
 
 
-
-function getSong(band) {
-    axios
-        .get("https://api.spotify.com/v1/search" + band)
+function getSong(song) {
+    let spotify = new Spotify(keys.spotify);
+    spotify
+        .search({ type: 'track', query: song })
         .then(function (response) {
-
-
-            console.log(response.data);
+            console.log(response);
         })
-        .catch(function (error) {
-            if (error.response) {
-
-                console.log(error.response.data);
-                console.log(error.response.status);
-                console.log(error.response.headers);
-            } else if (error.request) {
-
-                console.log(error.request);
-            } else {
-
-                console.log("Error", error.message);
-            }
-            console.log(error.config);
+        .catch(function (err) {
+            console.log(err);
         });
 };
 
-getSong();
-
+getSong("Stupid Mouth");
