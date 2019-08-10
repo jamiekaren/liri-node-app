@@ -16,7 +16,7 @@ let userSearch = process.argv[3];
 function startSearch (){
     if (userCommand === "spotify-this-song" && userSearch != null){
         getSong(userSearch);
-    } else console.log("nothing to see here");
+    } else getSong("I saw the sign");
 
 };
 
