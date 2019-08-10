@@ -6,6 +6,18 @@ let Spotify = require('node-spotify-api');
 
 let spotify = new Spotify(keys.spotify);
 
+let spotifyCommand = process.argv[2];
+
+let userSong = process.argv[3];
+
+
+console.log(spotifyCommand);
+console.log(userSong);
+
+// function checkInput(){
+//     if (spotifySong ===)
+// };
+
 
 function getSong(song) {
 
