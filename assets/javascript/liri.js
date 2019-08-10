@@ -6,17 +6,21 @@ let Spotify = require('node-spotify-api');
 
 let spotify = new Spotify(keys.spotify);
 
-let spotifyCommand = process.argv[2];
+let userCommand = process.argv[2];
 
-let userSong = process.argv[3];
+let userSearch = process.argv[3];
 
+// console.log(userCommand);
+// console.log(userSearch);
 
-console.log(spotifyCommand);
-console.log(userSong);
+function startSearch (){
+    if (userCommand === "spotify-this-song" && userSearch != null){
+        getSong(userSearch);
+    } else console.log("nothing to see here");
 
-// function checkInput(){
-//     if (spotifySong ===)
-// };
+};
+
+startSearch();
 
 
 function getSong(song) {
@@ -62,5 +66,5 @@ function getSong(song) {
         });
 };
 
-getSong("Stupid Mouth");
+
 
