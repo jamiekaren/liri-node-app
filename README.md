@@ -2,6 +2,12 @@
 
 This app search songs, concerts, and movies whenever you need to find information on a particular song or artist that caught your fancy, wish to see what concerts they are currently playing at, or would like to look up information on a movie for your next trivia game contest.
 
+![LIRI Bot Screenshot](https://lh3.googleusercontent.com/hZjjF_5mEbcPs5zju1guq-XpIOYkeYJrXGisYqxikDoIHF5Y6WMvvRchgj5MrK1ZhCBfRr10_lbJNKQCVPUwJ29Gb6Q2knB0BdlrouthXT95XsYk9HoNKxifIQUPW9nYABMRh7oNOuhPqkBEgN5Pd-VFLw-NTuqibo1a0-gmTZOIHBVCiUPKrIGlVSiSNx6Gmxyrh0ovmwfIujXncf_HpanA7j2yXPYaKgUjvFVY1W5Iqn8fOGc81XEnyMMnfEe7AmZb9hNYMmISSuJc_Au7PJC53957G7yY4Ein1oycw55_brEPvjphfAKsRNiTHeyluM3TYU_rThpn2ClfPNBJgS9Um1W65V85EXnIKmdCtgutP4DrUpjtgyYJn0bsgCvuByp9C7kqKYf524lf6-cQGAAVxt9Pkdcx_rq94UbD813SdX44G7eOqO3lWClfYSzigTFRr8YAQXJoKxP6C5f2ZjCHdWMhui9MMFkp8481yN8snKdWjLfAS92nzSCs9kMU3hRUdnqDIbE5wDT8cdOMVp5WZhv3QM5IufepAT6vVHEbWxJGmdi79qkYqI9pVHb9pHUVatumoqOsqNfeVn9MYE4mN8bvUAAdoUDtuPlnsRgOY0VseHC4t8peQsQXTnPNhVHjCLdQMiEMb3iQbldDZpxuQMWKS12E=w346-h207-no)
+
+### Watch the video for running the app here
+[LIRI NODE VIDEO](https://youtu.be/YIxgIkNuaOA)
+
+
 <hr>
 
 ## Development and Technical Details
