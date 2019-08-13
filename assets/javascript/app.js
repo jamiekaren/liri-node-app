@@ -1,5 +1,5 @@
 var axios = require("axios");
-
+ 
 function getBands(band) {
     axios
         .get("")
@@ -23,7 +23,6 @@ function getBands(band) {
             }
             console.log(error.config);
         });
-
 };
 
 getBands();
