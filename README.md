@@ -9,10 +9,9 @@ This app search songs, concerts, and movies whenever you need to find informatio
 This app uses the following APIs:
 
 1. Spotify
-2. Bands in Town
 3. OMDB
 
-It also uses to the Axios npm package to grab data from some of these APIs, as well as implementing moment.js and DotEnv.
+It also uses to the Axios npm package to grab data from some of these APIs, as well as implementing DotEnv.
 
 <hr>
 
